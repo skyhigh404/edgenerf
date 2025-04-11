@@ -1,0 +1,8 @@
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "room" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "flower" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "horns" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "leaves" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "fern" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "fortress" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "orchids" --postfix "_baseline4096"
+CUDA_VISIBLE_DEVICES=1,2 python train.py --gin_configs configs/llff3.gin --checkpoint_dir "llff3_"  --dataset_id "trex" --postfix "_baseline4096"
