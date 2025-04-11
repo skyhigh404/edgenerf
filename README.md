@@ -67,14 +67,3 @@ You can render and evaluate test images by running
 where you replace `{CONFIG}` with the config you want to use. Similarly, you can render a camera trajectory (which we used for our videos) by running
 
 ```python render.py --gin_configs configs/{CONFIG} ```
-
-
-### Using a pre-trained model
-
-You can find our pre-trained models, split into the 6 zip folders for the 6 different experimental setups, here: https://drive.google.com/drive/folders/182-sy2EsAFyN1Oqlyfj9AuC4Ec7jqQ-0?usp=sharing
-
-After downloading the checkpoints, you need to change the `Config.checkpoint_dir` argument in the respective config file accordingly to use the pre-trained model. You can then render test images or camera trajectories as indicated above.
-
-### Downloading model predictions
-
-If you don't want to run the code, you can also directly download the renderings of our models for the test set poses using the following link: https://drive.google.com/drive/folders/15nb1xPO5i3cTLM6nSDCtfjF4tMJUf3vG?usp=sharing
